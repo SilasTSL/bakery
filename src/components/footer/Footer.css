@@ -1,0 +1,41 @@
+.footerContainer {
+    margin-top: 10%;
+    background-color: #ffa6c9;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftFooterContainer, .centerFooterContainer, .rightFooterContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footerLink {
+    text-align: start;
+    cursor: pointer
+}
+
+.footerEmail, .footerNumber {
+    text-align: start;
+}
+
+.footerSocialsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerSocialIcon {
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-right: 30%;
+    margin-left: 0;
+    cursor: pointer;
+}

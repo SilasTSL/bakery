@@ -2,19 +2,19 @@
 
 This Project is a template for an Online store. It comprises of 5 pages - Index page, Store page, About us page, Contact page and Terms & Conditions page.
 
-<ins>Index Page</ins>
+<ins>Index Page</ins><br>
 Home page of Website
 
-<ins>Store Page</ins>
+<ins>Store Page</ins><br>
 Displays list of products where customers can place orders
 
-<ins>About us Page</ins>
+<ins>About us Page</ins><br>
 Displays information about the business and how it started
 
-<ins>Contact Page</ins>
+<ins>Contact Page</ins><br>
 Displays information to help customers contact the business
 
-<ins>Terms & Conditions Page</ins>
+<ins>Terms & Conditions Page</ins><br>
 Outlines the website administrator's rules regarding user behavior and provides information about the actions the website administrator can and will perform
 
 ## How to use

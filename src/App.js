@@ -71,7 +71,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home data={data.home}/>} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/stop" element={<Store />} />
           <Route path="/ourstory" element={<AboutUs data={data.aboutUs} />} />
           <Route path="/contact" element={<Contact data={data.contact} />} />
         </Routes>

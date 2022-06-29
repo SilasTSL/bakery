@@ -12,6 +12,11 @@
     transition-duration: 0.5s;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .headerItem:hover {
     font-size: 1.3rem;
 }

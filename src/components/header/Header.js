@@ -5,12 +5,26 @@ export const Header = () => {
     return (
         <div className="headerContainer">
             <div className="leftHeader">
-                <div className="shopHeaderLink  headerItem">SHOP</div>
-                <div className="aboutUsHeaderLink  headerItem">OUR STORY</div>
-                <div className="contactHeaderLink headerItem">CONTACT</div>
+                <div className="shopHeaderLink  headerItem">
+                    <a href="/stop">
+                        SHOP
+                    </a>
+                </div>
+                <div className="aboutUsHeaderLink  headerItem">
+                    <a href="/ourstory">
+                        OUR STORY
+                    </a>
+                </div>
+                <div className="contactHeaderLink headerItem">
+                    <a href="/contact">
+                        CONTACT
+                    </a>
+                </div>
             </div>
             <div className="logoContainer">
-                <img className="logo headerItem" src={require("../../images/logo.png")} />
+                <a href="/">
+                    <img className="logo headerItem" src={require("../../images/logo.png")} />
+                </a>
             </div>
             <div className="rightHeader">
                 <div className="socialIconContainer">

@@ -52,9 +52,9 @@ To use this template, it requires the following information from the business ow
     - Google sheets
     
 ## Contact
-Author: Silas Tay
-Email: silastaysl@gmail.com
-Telegram: @SilasTSL
+Author: Silas Tay<br>
+Email: silastaysl@gmail.com<br>
+Telegram: @SilasTSL<br>
 
 If you are looking to use and host this template for your own business, feel free to contact me!
 

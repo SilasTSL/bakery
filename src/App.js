@@ -49,8 +49,20 @@ function App() {
       }
     },
     store: {},
-    contact: {},
-    aboutUs: {}
+    contact: {
+      weekdaysHours: "10am - 530pm", 
+      weekendHours: "10am - 2pm", 
+      number: "+65 91234567",
+      email: "bakery@cafe.com",
+      address: "Bakery Cafe Avenue 3",
+      postalCode: "Singapore 812345"
+    },
+    aboutUs: {
+      header: "THE TASTE OF HOME-BAKED GOODNESS",
+      introductionSubtext: "Eget nulla facilisi etiam dignissim diam quis enim. At in tellus integer feugiat scelerisque varius morbi enim nunc. Ultricies lacus sed turpis tincidunt id aliquet risus. Convallis aenean et tortor at risus. Odio morbi quis commodo odio aenean sed adipiscing. Ut porttitor leo a diam sollicitudin tempor. Mattis molestie a iaculis at erat pellentesque. Pretium viverra suspendisse potenti nullam ac tortor vitae. Sem nulla pharetra diam sit.",
+      name: "MELISSA",
+      profileDescription: "Eget nulla facilisi etiam dignissim diam quis enim. At in tellus integer feugiat scelerisque varius morbi enim nunc. Ultricies lacus sed turpis tincidunt id aliquet risus."
+    }
   };
 
   return (
@@ -60,8 +72,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home data={data.home}/>} />
           <Route path="/store" element={<Store />} />
-          <Route path="/ourstory" element={<AboutUs />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/ourstory" element={<AboutUs data={data.aboutUs} />} />
+          <Route path="/contact" element={<Contact data={data.contact} />} />
         </Routes>
         <Footer data={data.contactInfo}/>
       </div>

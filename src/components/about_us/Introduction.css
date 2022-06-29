@@ -1,0 +1,28 @@
+.introductionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.introductionImage{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.introductionTextContainer {
+    width: 40%;
+}
+
+.introductionHeader {
+    font-size: 5rem;
+    line-height: 4.5rem;
+    width: auto;
+    padding: 10% 0;
+    border-bottom: 2px solid black;
+}
+
+.introductionSubtext {
+    font-size: 1.3rem;
+}

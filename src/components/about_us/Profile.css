@@ -1,0 +1,23 @@
+.profileContainer {
+    background-color: #ffa6c9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.profileHeader {
+    color: white;
+    font-size: 5rem;
+}
+
+.profileDescription{
+    color: white;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+.profileImg {
+    width: 55%;
+}

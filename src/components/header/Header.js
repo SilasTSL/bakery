@@ -5,9 +5,9 @@ export const Header = () => {
     return (
         <div className="headerContainer">
             <div className="leftHeader">
-                <div className="shopHeader headerItem">SHOP</div>
-                <div className="aboutUsHeader headerItem">OUR STORY</div>
-                <div className="contactHeader headerItem">CONTACT</div>
+                <div className="shopHeaderLink  headerItem">SHOP</div>
+                <div className="aboutUsHeaderLink  headerItem">OUR STORY</div>
+                <div className="contactHeaderLink headerItem">CONTACT</div>
             </div>
             <div className="logoContainer">
                 <img className="logo headerItem" src={require("../../images/logo.png")} />

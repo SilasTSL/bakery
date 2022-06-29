@@ -40,8 +40,21 @@ To use this template, it requires the following information from the business ow
         - Price
         - Product Image (product-img1.jpeg, product-img2.jpeg, product-img3.jpeg, product-img4.jpeg)
 4. About Us Information
-    - TBC
+    - Header
+    - Subtext
+    - Name
+    - Profile Description
+    - About Us Image (introduction-img.jpeg)
+    - Profile Image (profile-img.jpeg)
 5. Contact Information
+    - Weekday Hours
+    - Weekend Hours
+    - Address
+    - Postal Code
+    - Number
+    - Email
+    - Contact Image (contact-img.jpeg)
+6. Shop Information
     - TBC
 
 ## Built with

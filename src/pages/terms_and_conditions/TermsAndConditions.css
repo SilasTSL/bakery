@@ -1,0 +1,9 @@
+.termsAndConditionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 12%;
+    padding-left: 12%;
+    margin-top: 3%;
+}

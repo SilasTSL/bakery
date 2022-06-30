@@ -10,10 +10,26 @@ export const Footer = ({ data }) => {
                 <img className="footerLogo" src={require("../../images/logo.png")} />
             </div>
             <div className="middleFooterContainer">
-                <h2 className="footerLink">SHOP</h2>
-                <h2 className="footerLink">OUR STORY</h2>
-                <h2 className="footerLink">CONTACT</h2>
-                <h2 className="footerLink">HELP</h2>
+                <h2 className="footerLink">
+                    <a href="/store">
+                        SHOP
+                    </a>
+                </h2>
+                <h2 className="footerLink">
+                    <a href="/ourstory">
+                        ABOUT US
+                    </a>
+                </h2>
+                <h2 className="footerLink">
+                    <a href="/contact">
+                        CONTACT
+                    </a>
+                </h2>                
+                <h2 className="footerLink">
+                    <a href="/termsandconditions">
+                        TERMS & CONDITIONS
+                    </a>
+                </h2>            
             </div>
             <div className="rightFooterContainer">
                 <h2 className="footerNumber">{data.number}</h2>

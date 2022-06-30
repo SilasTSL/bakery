@@ -6,7 +6,7 @@ export const Header = () => {
         <div className="headerContainer">
             <div className="leftHeader">
                 <div className="shopHeaderLink  headerItem">
-                    <a href="/stop">
+                    <a href="/store">
                         SHOP
                     </a>
                 </div>

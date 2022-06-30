@@ -6,6 +6,7 @@ import { AboutUs } from './pages/about_us/AboutUs';
 import { Contact } from './pages/contact/Contact';
 import { Header } from './components/header/Header';
 import { Footer } from "./components/footer/Footer";
+import { TermsAndConditions } from "./pages/terms_and_conditions/TermsAndConditions";
 
 function App() {
 
@@ -71,9 +72,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home data={data.home}/>} />
-          <Route path="/stop" element={<Store />} />
+          <Route path="/store" element={<Store />} />
           <Route path="/ourstory" element={<AboutUs data={data.aboutUs} />} />
           <Route path="/contact" element={<Contact data={data.contact} />} />
+          <Route path="/termsandconditions" element={<TermsAndConditions />} />
         </Routes>
         <Footer data={data.contactInfo}/>
       </div>
